@@ -1,8 +1,8 @@
 .grid {
   display: grid;
   /* grid-template-columns: 50% 50%; */
-  /* grid-template-columns: 33% 33% 33%; */
-  grid-template-columns: 100px 100px 200px;
+  grid-template-columns: 33% 33% 33%;
+  /* grid-template-columns: 100px 100px 200px; */
 
   /* grid-template-rows: 100px 200px; */
   grid-template-rows: auto 200px;
