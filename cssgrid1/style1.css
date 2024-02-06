@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: 50% 50%; */
+  /* grid-template-columns: 33% 33% 33%; */
+  grid-template-columns: 100px 100px 200px;
+
+  /* grid-template-rows: 100px 200px; */
+  grid-template-rows: auto 200px;
+
+  /* gap: 3px; */
+  gap: 1em;
+  /* column-gap: 1em; */
+  /* row-gap: 1em; */
+}
+
+.element {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.element:hover {
+  border: 1px solid #f1c40f;
+}
